@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Catalog - Cryptic System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+            font-size: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        table tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cryptic Coin Cataloging System</h1>
+    <p>This table illustrates the structure and fields used in the cataloging system for your global numismatic collection. Each entry follows a cryptic format for greater security and professionalism.</p>
+
+    <table>
+        <caption>Catalog Entry Structure</caption>
+        <thead>
+            <tr>
+                <th>Field Name</th>
+                <th>Details/Explanation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Catalog Number</strong></td>
+                <td><em>HF-02-1Y4-A-S-01-M-C</em>: A cryptic identifier made up of country code, denomination, year, mintmark, material, special edition code, grade, and coin type.</td>
+            </tr>
+            <tr>
+                <td><strong>Country</strong></td>
+                <td>The two-letter code for the country, encrypted using a cipher (e.g., `US` becomes `HF` using ROT13).</td>
+            </tr>
+            <tr>
+                <td><strong>Denomination</strong></td>
+                <td>The coin’s denomination encoded into a numeric value (e.g., `D` for Dollar becomes `02`).</td>
+            </tr>
+            <tr>
+                <td><strong>Year of Issue</strong></td>
+                <td>The year of the coin’s issue, encoded in base-36 (e.g., `2010` becomes `1Y4`).</td>
+            </tr>
+            <tr>
+                <td><strong>Mintmark</strong></td>
+                <td>The mintmark for the coin, encoded with a cipher (e.g., `S` for San Francisco becomes `A`).</td>
+            </tr>
+            <tr>
+                <td><strong>Material</strong></td>
+                <td>The material used in the coin’s composition, encoded using a predefined code (e.g., `S` for Silver).</td>
+            </tr>
+            <tr>
+                <td><strong>Special Edition/Series</strong></td>
+                <td>Indicates whether the coin is part of a special series or limited edition, encoded into a numeric value (e.g., `01` for Commemorative).</td>
+            </tr>
+            <tr>
+                <td><strong>Condition</strong></td>
+                <td>The coin's condition, represented by a single letter (e.g., `M` for Mint State).</td>
+            </tr>
+            <tr>
+                <td><strong>Coin Type</strong></td>
+                <td>The type of the coin (e.g., `C` for Circulation, `P` for Proof, `R` for Reverse).</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
